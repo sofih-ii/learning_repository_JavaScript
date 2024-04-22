@@ -7,6 +7,7 @@ const rocket ={
 
 }
 
+
 // 1. Mantenimiento difícil: Duplicar código hace que mantener y actualizar el software sea más complicado. Cuando se realiza un cambio en una parte del código duplicado, es necesario recordar y aplicar ese cambio en todas las instancias duplicadas, lo que puede ser propenso a olvidos y errores.
 
 //2. Aumento de complejidad: La presencia de código duplicado aumenta la complejidad del sistema. En lugar de tener una única fuente de verdad para una funcionalidad o lógica, hay múltiples instancias que deben ser coordinadas y gestionadas, lo que puede resultar en un código más difícil de entender y mantener.
