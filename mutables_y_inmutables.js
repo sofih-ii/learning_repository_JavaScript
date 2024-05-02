@@ -17,7 +17,7 @@ frutas[0] = 'sandia';
 console.log(frutas)
 
 function cambiarNombre (objeto) {
-    objeto.nombre = 'nuevo nombre'
+    objeto.nombre = 'sofia'
 }
 let persona = { nombre: 'antonio'};
 cambiarNombre(persona)
