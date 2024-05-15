@@ -23,3 +23,25 @@ const person = {
 }
 
 console.log(person)
+
+// Works with object
+
+console.log(person.salute);
+person.salute();
+
+person.phone = "467563824";
+
+console.log(person.phone);
+
+person.farewell = () => {
+    console.log("Good bay");
+}
+person.farewell();
+
+console.log(person.address.street);
+
+delete person.phone;
+person.phone;
+
+delete person.farewell();
+console.log(person.farewell);
